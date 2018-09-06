@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Create\AbstractFactory2.cs" />
+    <Compile Include="Others\ThrowEx.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -50,9 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\" />
+    <Folder Include="Create\" />
     <Folder Include="Structure\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="QuickView.html" />
     <Content Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
